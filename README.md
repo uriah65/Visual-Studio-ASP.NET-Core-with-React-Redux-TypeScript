@@ -20,8 +20,8 @@ Build solution and navigate to default.html. This page shows 2 buttons to trigge
 **To build:** open solution in Visual Studio 2017 RC, and make sure npm, Bower and Gulp fire correctly:
   - npm - right click 'package.json' and Restore Packages, - they should show under Dependencies/npm, - may take a minute;
   - bower - right click 'bower.json' and Restore Packages, - you should see wwwroot/lib/requirejs/require.js;
-  - app.tsx - you may need to add a space and save the file, since TypeScript is compiled on 'Save', - you should see files wwwroot/js(hidden)/(app.js+app.js.map);
-  - gulp, - right click 'gulpfile.js' and Task Runner Explorer, - in Task Explorer Explorer windoe click refresh icon and doubleclick 'default' task - you should see files wwwroot/js(hidden)/(app.js+app.js.map+react.js+react-dom.js+react-redux.js+redux.js);
+  - app.tsx - you may need to add a space and save the file, since TypeScript is compiled on 'Save', - you should see files wwwroot/js(hidden)/(app.js + app.js.map_app + store.js + app-store.js.map);
+  - gulp, - right click 'gulpfile.js' and Task Runner Explorer, - in Task Explorer Explorer windoe click refresh icon and doubleclick 'default' task - you should see files wwwroot/js(hidden)/(... + react.js + react-dom.js + react-redux.js + redux.js);
 
 
 **References**
