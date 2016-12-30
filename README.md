@@ -18,9 +18,9 @@ This example uses just single TypeScript module app.tsx. One can easily add anot
 
 
 **To run:** open solution in Visual Studio 2017 RC, and make sure npm, Bower and Gulp fire correctly:
-  - npm - right click 'package.json' and Restore Packages, - they should show under Dependencies/npm, - make take minute;
+  - npm - right click 'package.json' and Restore Packages, - they should show under Dependencies/npm, - may take a minute;
   - bower - right click 'bower.json' and Restore Packages, - you should see wwwroot/lib/requirejs/require.js;
   - app.tsx - you may need to add a space and save the file, since TypeScript is compiled on 'Save', - you should see files wwwroot/js(hidden)/(app.js+app.js.map)
-  - gulp, - right click 'gulpfile.js' and Task Runner Explorer, - in explorer click refresh and doubleclick 'default' task - you should see files wwwroot/js(hidden)/(app.js+app.js.map+react.js+react-dom.js+react-redux.js+redux.js)
+  - gulp, - right click 'gulpfile.js' and Task Runner Explorer, - in Task Explorer Explorer windoe click refresh icon and doubleclick 'default' task - you should see files wwwroot/js(hidden)/(app.js+app.js.map+react.js+react-dom.js+react-redux.js+redux.js)
  
- Build solution and run for default.html. You should see 2 buttons triggering synchronous actions, and one button for asynchronous GET action from https://jsonplaceholder.typicode.com/posts/1. Clicking on the buttons changes text in div.
+ Build solution and run for default.html. This page includes 2 buttons for triggering synchronous actions, and one button for asynchronous GET action from https://jsonplaceholder.typicode.com/posts/1. Clicking on the buttons changes text in div below.
