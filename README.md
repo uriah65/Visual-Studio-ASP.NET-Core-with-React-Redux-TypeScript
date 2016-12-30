@@ -24,3 +24,6 @@ This example uses just single TypeScript module app.tsx. One can easily add anot
   - gulp, - right click 'gulpfile.js' and Task Runner Explorer, - in Task Explorer Explorer windoe click refresh icon and doubleclick 'default' task - you should see files wwwroot/js(hidden)/(app.js+app.js.map+react.js+react-dom.js+react-redux.js+redux.js)
  
  Build solution and run for default.html. This page includes 2 buttons for triggering synchronous actions, and one button for asynchronous GET action from https://jsonplaceholder.typicode.com/posts/1. Clicking on the buttons changes text in div below.
+
+**References**
+ - Fantastic introductionary tutorial on Redux - https://github.com/happypoulp/redux-tutorial
