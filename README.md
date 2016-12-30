@@ -17,7 +17,7 @@ For clarity, this project has been created with 'Empty' ASP.NET Core template, h
 Build solution and navigate to default.html. This page shows 2 buttons to trigger synchronous actions, and a button for asynchronous XMLHttpRequest GET action from https://jsonplaceholder.typicode.com/posts/1. Clicking on the buttons changes text in div below.
  
 
-**To run:** open solution in Visual Studio 2017 RC, and make sure npm, Bower and Gulp fire correctly:
+**To build:** open solution in Visual Studio 2017 RC, and make sure npm, Bower and Gulp fire correctly:
   - npm - right click 'package.json' and Restore Packages, - they should show under Dependencies/npm, - may take a minute;
   - bower - right click 'bower.json' and Restore Packages, - you should see wwwroot/lib/requirejs/require.js;
   - app.tsx - you may need to add a space and save the file, since TypeScript is compiled on 'Save', - you should see files wwwroot/js(hidden)/(app.js+app.js.map);
