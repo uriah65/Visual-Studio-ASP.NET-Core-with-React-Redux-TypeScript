@@ -10,7 +10,7 @@ import * as Store from './app-store'
 
 
 var initialState = {
-    message: Store.message,
+    message: Store.message as string,
 }
 
 
@@ -26,12 +26,12 @@ var reducer = function (state, action) {
     return state;
 }
 
-var asyncSetMessage = function (comment) : any {
+var asyncSetMessage = function (comment : string) : any {
     return function (dispatch) {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts/1');
         xhr.setRequestHeader('Content-Type', 'application/json');
-        xhr.onload = function (e : any) {
+        xhr.onload = function (e : Event) {
             var x = JSON.parse(xhr.responseText);
             dispatch({
                 type: 'set-message',
@@ -50,7 +50,7 @@ var asyncSetMessage = function (comment) : any {
     }
 }
 
-var asyncSetMessage2 = function (comment) : any {
+var asyncSetMessage2 = function (comment : string) : any {
     return function (dispatch) {
         setTimeout(function () {
             dispatch({
@@ -82,20 +82,20 @@ var store = finalCreateStore(reducer);
 
 var MyComponentState = function (state) {
     return {
-        message: state.message,
+        message: state.message as string,
     }
 }
 
 var MyComponentDispatch = function (dispatch) {
     return {
-        setMessage: function (newText)
+        setMessage: function (newText : string)
         {
             dispatch({
                 type: 'set-message',
                 comment: newText,
             })
         },
-        setDelayed : function(newText) {
+        setDelayed : function(newText: string) {
             dispatch(asyncSetMessage(newText));
         }    
     }
