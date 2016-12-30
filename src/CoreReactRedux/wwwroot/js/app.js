@@ -21,14 +21,15 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     else if (typeof define === 'function' && define.amd) {
         define(dependencies, factory);
     }
-})(["require", "exports", "react", "react-dom", "redux", "react-redux"], function (require, exports) {
+})(["require", "exports", "react", "react-dom", "redux", "react-redux", "./app-store"], function (require, exports) {
     "use strict";
     var React = require("react");
     var ReactDOM = require("react-dom");
     var Redux = require("redux");
     var ReactRedux = require("react-redux");
+    var Store = require("./app-store");
     var initialState = {
-        message: 'initial state message',
+        message: Store.message,
     };
     var reducer = function (state, action) {
         if (state === undefined) {

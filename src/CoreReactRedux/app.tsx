@@ -6,10 +6,11 @@ import *  as React from 'react'
 import *  as ReactDOM from 'react-dom'
 import * as Redux from 'redux'
 import * as ReactRedux from 'react-redux'
+import * as Store from './app-store'
 
 
 var initialState = {
-    message: 'initial state message',
+    message: Store.message,
 }
 
 
