@@ -12,10 +12,7 @@ A minimal example of the ASP Core application using the following technologies:
 8. ASP Core
 8. Bower,npm, Gulp
 
-For clarity, this project has been created with '**Empty** ASP.NET Core Template', however, same code can be used in full 'Web API' or 'Web Application' ASP.NET Core Templates.
-
-This example uses just single TypeScript module app.tsx. One can easily add another module say, app-store.ts, which will be automatically linked by RequireJs, when references (import-ed) in app.tsx.
-
+For clarity, this project has been created with 'Empty' ASP.NET Core Template, however, same code can be used in full 'Web API' or 'Web Application' Templates. All code is located in single app.tsx file, to show module linkage app-store.ts file has a single simple export that is used in app.jsx.
 
 **To run:** open solution in Visual Studio 2017 RC, and make sure npm, Bower and Gulp fire correctly:
   - npm - right click 'package.json' and Restore Packages, - they should show under Dependencies/npm, - may take a minute;
