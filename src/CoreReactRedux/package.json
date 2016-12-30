@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "del": "2.2.2",
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.1",
+    "gulp-cssmin": "0.1.7",
+    "gulp-less": "3.3.0",
+    "gulp-uglify": "2.0.0"
+  },
+  "dependencies": {
+    "@types/react": "^0.14.55",
+    "@types/react-dom": "^0.14.19",
+    "react": "15.4.1",
+    "react-dom": "15.4.1",
+    "redux": "~3.6.0",
+    "react-redux": "~5.0.1"
+  }
+}
