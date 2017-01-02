@@ -12,7 +12,7 @@ A minimal example of the ASP Core application using the following:
 8. ASP Core
 9. Bower,npm, Gulp
 
-For clarity, this project has been created with 'Empty' ASP.NET Core template, however, same code can be used in full 'Web API' or 'Web Application' templates. All code is located in single app.tsx file. To demo TypeScript modules, - a single export has been separated into app-store.ts.
+For clarity, this project has been created with 'Empty' ASP.NET Core template, however, same code can be used in full 'Web API' or 'Web Application' templates. 
 
 Build solution and navigate to default.html. This page shows 2 buttons to trigger synchronous actions, and a button for asynchronous XMLHttpRequest GET action from https://jsonplaceholder.typicode.com/posts/1. Clicking on the buttons changes text in div below.
  
