@@ -1,6 +1,6 @@
 # Visual Studio ASP.NET Core with React-Redux-TypeScript
 
-A minimal example of the ASP Core application using the following technologies:
+A minimal example of the ASP Core application using the following:
 
 1. Visual Studio 2017RC
 2. ReactJs
@@ -8,9 +8,9 @@ A minimal example of the ASP Core application using the following technologies:
 4. React-Redux
 5. TypeScript
 6. TypeScript Modules loaded by RequireJs
-7. Synchronous and Asynchronous actions (XMLHttpRequest) in Redux
+7. Synchronous and asynchronous Redux actions 
 8. ASP Core
-8. Bower,npm, Gulp
+9. Bower,npm, Gulp
 
 For clarity, this project has been created with 'Empty' ASP.NET Core template, however, same code can be used in full 'Web API' or 'Web Application' templates. All code is located in single app.tsx file. To demo TypeScript modules, - a single export has been separated into app-store.ts.
 
